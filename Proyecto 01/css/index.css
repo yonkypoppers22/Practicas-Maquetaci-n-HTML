@@ -1,0 +1,156 @@
+body{
+    background-color: rgba(151, 151, 151, 0.836);
+    
+}
+
+:root{
+    --color_primario: yellow;
+    --color_secundario: red;
+    --tamaño1: 100%;
+
+
+}
+
+
+html{
+    font-size: 20px;
+}
+
+.header {
+    border: 1px solid greenyellow;
+    height: 10vh ;    
+    display: flex;
+    justify-content: space-between;
+}
+
+.main{
+    border: 1px solid greenyellow;
+    
+}
+
+.footer{
+    border: 1px solid greenyellow;
+    height: 10vh;
+}
+
+
+
+.border{
+    border: 1px solid blue;
+}
+
+
+.background{
+    background-color:chocolate;
+}
+
+.menuprincipal{
+    width: 40%;
+
+}
+
+.menu1{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.item{
+    list-style: none;
+}
+
+.center{
+    justify-content: center;
+}
+
+.form{
+    width: 50%;
+    margin: auto;
+    border: 1px solid blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.flex{
+    display: flex;
+}
+
+
+
+.images{
+    width: 50%;
+    margin: auto;
+    border: 1px solid var(--color_primario);
+}
+
+.title{
+    max-width: 100%;
+    min-width: 20%;
+}
+
+
+
+.border2{
+    border: 2px solid blue;
+    border-top: 2px solid yellow;
+    border-right: 2px solid red;
+    border-bottom: 2px dotted green;
+    border-left: 2px dashed blueviolet;
+    margin: 10px;
+
+}
+
+.border-p{
+    border: 2px solid blue;
+    border-radius: 5px 50px 20px 80px;
+    font-size: 20px;
+}
+
+.shadow{
+    border: 2px solid yellow;
+    box-shadow: 15px 15px 40px 2px black,
+    5px 5px 40px 2px yellow,
+    5px 5px 40px 2px blue;
+}
+
+.shadow{
+    text-shadow: 3px 3px 0px greenyellow,
+    5px 3px 0px yellow,
+    7px 3px 0px blue;
+}
+
+.fondo{
+
+    background-image: url("../img/montañas.jpg..");
+    background-size: cover;
+    background-position: center;
+}
+
+.medidas{
+    color: yellow;
+    width: 60%;
+    margin: auto;
+    border: 1px solid blue;
+
+    font-size: 2rem;
+
+}
+
+
+a:hover{
+    font-size: 20px;
+    color: blueviolet;
+    background-color: yellow;
+
+}
+
+a:visited{
+    color: var(--color_secundario);
+    width: var(--tamaño1);
+
+}
+.audio{
+    width: 80%;
+
+}

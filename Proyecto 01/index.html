@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 02</title>
+    <meta name="description" content="Contenido Academico">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body class="fondo">
+    <header class="header background">
+        <article class="border"> 
+            Logo
+        </article>
+        <nav class="border menuprincipal"> 
+            <ul class = "menu1"> 
+                <li class="item">
+                    <a href="registro.html" target="_blank">Registro</a>
+                </li>
+                    
+                <li class="item">
+                    <a href="https://www.youtube.com/" target="blank"> Nosotros</a>
+                    
+                </li>
+
+                <li class="item">
+                    <a href="#listas">Listas</a>
+                </li>
+
+                <li class="item">
+                    <a href="registro.html#parrafo2">Parrafo 2</a>
+                </li>
+
+            </ul>
+        </nav>
+        <nav class="border"> 
+            Login
+        </nav>
+    </header>
+    <br>
+    <main class="main">
+        <section class="encabezados border ">
+            <h1>Encabezado</h1>
+            <h2>Encabezado </h2>
+            <h3>Encabezado</h3>
+            <h5>Encabezado</h5>
+            <h6>Encabezado</h6>
+        </section>
+        <br>
+        <section class="border">
+            <h1><b>Pagrafos wey</b></h1>
+            <p><strong>Lorem ipsum </strong>dolor sit amet <i>consectetur adipisicing elit.</i> Tempora vero officiis <em>impedit veniam cum molestias,</em> iste quidem non <mark>reprehenderit ex</mark> praesentium numquam <small>voluptates ipsam quasi</small> quam facere perspiciatis ad quibusdam!</p>
+            <p>Lorem ipsum dolor, <del>sit amet consectetur adipisicing elit.</del> <ins>Non, sunt facilis nemo sequi</ins> dolorem dolores <sub>eius reiciendis harum</sub> aut quo a qui odio nostrum <sup>error obcaecati laboriosam</sup> quisquam illum incidunt.</p>
+
+            <p class="medidas">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A accusamus omnis non sint? Explicabo atque dolore placeat sequi! Perferendis perspiciatis aliquam porro fugit, ab obcaecati placeat nemo voluptatem reiciendis vero.</p>
+            
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam debitis quo eveniet labore deserunt at ullam blanditiis eius asperiores similique quidem ex cumque dignissimos nobis, voluptas iste excepturi minima!</p>
+            
+            <p> aqui esta una cita para WW´FS</p>
+            <blockquote cite =
+                "https://www.youtube.com/?app=desktop&hl=es">
+                youtube: youtube
+            </blockquote>
+        </section>
+
+        <br>
+        <section class="border">
+            <h1 id="listas">Listas</h1>
+            <a href="#top">Subir</a>
+            <h2>Listas Ordenadas</h2>
+            <ol>
+                <li>1 Item</li>
+                <li>2 Item</li>
+                <li>3 Item</li>
+                <li>4 Item</li>
+                <li>5 Item</li>
+            </ol>
+            <h3>Listas Desordenadas</h3>
+            <ul>
+                <li>1 Item</li>
+                <li>2 Item</li>
+                <li>3 Item</li>
+                <li>4 Item</li>
+                <li>5 Item</li>
+            </ul>
+            <h4>Listas de Definicion</h4>
+            <dl>
+                <dt><strong>Termino 1</strong></dt>
+                <dd><i>Descripcion del termino</i></dd>
+                <dt><strong>Termino 2</strong></dt>
+                <dd> <i>Descripcion del termino 2</i></dd>
+            </dl>
+
+        </section>
+    </main>
+    <br>
+    <section>
+        <H1>Tablas</H1>
+        <table>
+            <thead>
+                <tr>
+                <th class="border">Hora</th>
+                <th class="border">Lunes</th>
+                <th class="border">Martes</th>
+                <th class="border">Miercoles</th>
+                <th class="border">Jueves</th>
+                <th class="border">Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="border">7:00 - 9:00</td>
+                    <td class="border">Etica</td>
+                    <td class="border" rowspan="2">Algoritmia</td>
+                    <td class="border" rowspan="2">Base De Datos</td>
+                    <td class="border">POO</td>
+                    <td class="border" rowspan="2">Matematicas</td>
+                </tr>
+                <tr>
+                    <td class="border">9:00 - 10:00</td>
+                    <td class="border">Etica</td>
+                    <td class="border">OPP</td>
+                    
+                <tr>
+                    <td class="border" colspan="6">Descanso</td>
+                </tr>
+                <tr>
+                    <td class="border">10:00 - 11:00</td>
+                    <td class="border">Ingles</td>
+                    <td class="border">Fisica</td>
+                    <td class="border">Matematicas</td>
+                    <td class="border">OPP</td>
+                    <td class="border">Si Se</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td class="border" colspan="6">ekisde lol</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <br>
+
+    <section class="border">
+        <h1>Formulario</h1>
+        <form class="form" action="Login.python">
+            <div >
+                <label for="nombre">Ingrese Usuario: </label> <br>
+                <input id="nombre" type="text" required placeholder="NoName">
+            </div>
+            <div >
+
+                <fieldset>
+                <legend>Selecciona Tu Genero: </legend> 
+                <input type="radio" name="genero" value="Masculino"> Masculino
+                <input type="radio" name="genero" value="Femenino"> Femenino
+                <input type="radio" name="genero" value="Licuadora 2K2024"> Licuadora 2K2024
+                </fieldset>
+                
+            </div>
+
+            <fieldset>
+                <legend>Seleccione Tu Hobbie: </legend>
+                <input type="checkbox" name="hobbi" > dormir
+                <input type="checkbox" name="hobbi" > dormir 2
+                <input type="checkbox" name="hobbi" > dormir 3
+            </fieldset>
+            <div>
+                <label for="fecha">Ingrese la Fecha: </label> <br>
+                <input id="fecha" type="date">
+            </div>
+            <div>
+                <label for="pais">Seleccione el Pais:</label> <br>
+                <select name="pais" id="pais">
+                    <option value="Colombia">Colombia</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Venezuela">Venezuela</option>
+                </select>
+            </div>
+            <div>
+                <label for="email">Ingrese Su correo @: </label> <br>
+                <input id="email" type="email">
+            </div>
+            <div>
+                <label for="ciudad">Ingrese Ciudad: </label> <br>
+                <input id="ciudad" type="text">
+            </div>
+            <div>
+                <label for="documento">Suba Su Documento: </label> <br>
+                <input id="documento" type="file">
+            </div>
+            <div>
+                <label for="mensaje">Escriba Su Mensaje: </label> <br>
+                <textarea name="mensaje" id="mensaje">Escriba Aqui: </textarea>
+            </div>
+            <div>
+                <label for="contraseña">Ingrese contraseña</label> <br>
+                <input id="contraseña" type="password">
+            </div>
+            <button>Registrar</button>
+            
+        </form>
+    </section>
+
+    <section>
+        <h1>Multimedia</h1>
+        <article class="images">
+            <img  class="title"  src="img/imagen 2 vegeta.webp" alt="Anime">
+        </article>
+
+        <section class="images">
+            <iframe width="180" height="125" src="https://www.youtube.com/embed/v7UsLuMfuZc?si=eWw4s3lPotULpPbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section class="images">
+            <audio src="/sound/audio.mp3" controls autoplay class="audio"> Audio</audio>
+        </section>
+
+        <section class="images">
+            <h1>Bordes</h1>
+            <p class="border2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, vel! Cum molestias eum quae. Consectetur neque doloremque, sunt impedit quidem odit pariatur, accusantium aperiam facere mollitia id beatae magnam aspernatur.</p>
+
+            <p class="border-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, vel! Cum molestias eum quae. Consectetur neque doloremque, sunt impedit quidem odit pariatur, accusantium aperiam facere mollitia id beatae magnam aspernatur.</p>
+
+            <p class="shadow">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates ducimus iste adipisci quam assumenda vel explicabo nesciunt praesentium dolorum, unde, corporis numquam sapiente culpa nulla, amet debitis. Odit, veniam omnis.</p>
+        </section>
+
+
+
+    </section>
+
+
+
+
+    <Footer class="footer background">
+        <p>Here is a quote from WWs website</p>
+        
+    </Footer>
+</body>
+</html>
